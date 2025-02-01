@@ -1,16 +1,16 @@
 import React from 'react';
-import { link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
     <nav className='bg-blue-500 p-4'>
         <div className='container mx-auto flex justify-between items-center'>
-            <link to='/' className='text-white text-lg font-bold'>Overseas Malaysian</link>
+            <Link to='/' className='text-white text-lg font-bold'>Overseas Malaysian</Link>
             <div className='space-x-4'>
-                <link to='/donation' className='text-white'>Donation</link>
-                <link to='/become-a-member' className='text-white'>Membership</link>
-                <link to='/appreciation' className='text-white'>Appreciation</link>
-                <link to='/misusers' className='text-white'>Misusers</link> 
+                <Link to='/donation' className='text-white'>Donation</Link>
+                <Link to='/become-a-member' className='text-white'>Membership</Link>
+                <Link to='/appreciation' className='text-white'>Appreciation</Link>
+                <Link to='/misusers' className='text-white'>Misusers</Link> 
             </div>
         </div>
     </nav>
